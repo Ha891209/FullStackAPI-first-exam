@@ -1,3 +1,4 @@
+const { get, create, update, remove } = require('./fn');
 /**
  * 1. Töltsd be az fn custom modulban található függvényeket.
  */
@@ -5,6 +6,8 @@
 /**
  * Ez a tömb a tesztelést szolgálja, nincs vele teendőd.
  */
+
+
 const users = [{
     "id": 1,
     "firstName": "Gerianna",
@@ -67,11 +70,7 @@ const users = [{
     "gender": "male"
 }];
 
-/**
- * 2. Amint elkészültél, vedd ki a kommentből az alábbi kódblokkot és tudod 
- * tesztelni a munkádat.
- */
-/*
+
 console.log(get(users, 3));
 
 console.log(create(users, {
@@ -88,4 +87,4 @@ console.log(update(users, {
 }));
 
 console.log(remove(users, 3));
-*/
+
